@@ -1,0 +1,72 @@
+.logo {
+	background: url('../assets/W2021.ab423404.png');
+	background-repeat: no-repeat;
+	background-size: 300px 100px;
+}
+.profileimagewrapper {
+	border-radius: 10px;
+	width: 40px;
+	height: 40px;
+}
+.actionbutton {
+	background: #00a85a 0% 0% no-repeat padding-box;
+	box-shadow: 0px 10px 10px #18a75d40;
+	border-radius: 20px;
+	opacity: 1;
+	width: 40px;
+	height: 40px;
+}
+
+.actionbutton:hover {
+	background-color: #257550;
+}
+
+.searchicon {
+	color: 'text-gray-400';
+}
+
+.arrow-up {
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	z-index: 1;
+	border-bottom: 10px solid black;
+	margin-top: -10px;
+	right: 155px;
+	position: absolute;
+	display: none;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #eff7f0;
+	/* margin-top: -15px; */
+	border-radius: 5px;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	right: 80px;
+}
+
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #abebb2;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.arrow-up:hover {
+	display: block;
+	border-bottom: 10px solid #abebb2;
+}

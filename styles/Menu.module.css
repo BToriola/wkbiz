@@ -1,0 +1,37 @@
+.button {
+    /* border-color: #00A85A; */
+    margin-bottom: 20px;
+    color:#87AC9B; 
+    /* background-color: #fff;  */
+}
+.button span {
+    color: #87AC9B;
+}
+.button span:hover {
+    color: #FFF;
+}
+/* .button:hover {
+    border-color: #648B7A;
+    border-width: 1px;
+}
+.button:focus {
+    border-color: #00A85A;
+    color: #00A85A;
+    background-color: #FFF;
+    border-width: 1px;
+}
+.button:active {
+    border-color: #00A85A;
+    background-color: #FFF;
+    border-width: 1px;
+} */
+
+/* .footer-bar {
+    height:3px;
+    width: 100%; 
+    background-color: #00A85A;
+    position: absolute;
+    bottom:0px;
+    left:0px
+}
+  */
